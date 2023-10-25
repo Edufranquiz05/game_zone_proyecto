@@ -1,3 +1,7 @@
+create database game_zone;
+use game_zone;
+
+
 create table clases (
 	nu_clase int not null auto_increment primary key,
 	nb_clase varchar(70) not null unique
